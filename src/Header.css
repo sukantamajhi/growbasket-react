@@ -19,7 +19,8 @@ body {
 	display: flex;
 	align-items: left;
 	/*padding: 20px;*/
-	padding: 0 50px;
+	padding: 0 30px;
+	padding-left: 90px;
 	top: 0;
 	width: 100%;
 	margin: auto;
@@ -35,14 +36,16 @@ nav {
 nav ul {
 	display: inline-block;
 	list-style-type: none;
-	font-size: larger;
+	font-size: 18px;
 	padding: 10px 0;
 	font-weight: 550px;
 }
 
 nav ul li {
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 10px;
+	color: #000000;
+	padding: 0 10px;
 }
 
 nav ul li a {
@@ -75,13 +78,14 @@ p {
 	display: flex;
 	flex: 1;
 	align-items: center;
+	border: #000000;
+	border-radius: 100px;
 }
 
 .header__searchInput {
 	height: 42px;
 	padding: 10px;
 	padding-left: 20px;
-	border: none;
 	width: 100%;
 }
 
