@@ -8,6 +8,10 @@ body {
 	font-family: "Open Sans", sans-serif;
 }
 
+div {
+	position: sticky;
+}
+
 .logo img {
 	width: 199px;
 	/*width: 55%;*/
@@ -42,18 +46,19 @@ nav ul {
 }
 
 nav ul li {
-	display: inline-block;
+	display: inline-table;
 	margin-right: 10px;
 	color: #000000;
-	padding: 0 10px;
+	padding: 0 5px;
 }
 
 nav ul li a {
 	text-decoration: none;
-	color: #555555;
+	color: #000000;
 }
 nav ul li a:hover {
-	color: #000000;
+	color: #1435f3;
+	float: left;
 	text-decoration: underline;
 	text-underline-position: below;
 }
@@ -76,16 +81,18 @@ p {
 
 .header__search {
 	display: flex;
-	flex: 1;
 	align-items: center;
-	border: #000000;
+	border: #ffffff;
+	border: 1;
 	border-radius: 100px;
+	margin-left: 90px;
 }
 
 .header__searchInput {
 	height: 42px;
 	padding: 10px;
 	padding-left: 20px;
+	padding-right: 50px;
 	width: 100%;
 }
 
