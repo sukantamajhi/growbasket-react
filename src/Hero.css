@@ -7,6 +7,7 @@ body {
     display: grid;
     background: radial-gradient(#7de1ff, #a2ff6c);
     height: 100vh;
+    width: 100vw;
     padding: 50px 0;
     align-content: center;
     padding-bottom: 10%;

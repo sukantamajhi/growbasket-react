@@ -64,6 +64,9 @@ function Featuredproducts() {
                             link={ps[7].link}
                         />
                     </div>
+                    <div className="featured__column">
+                        <button className="Show__more">Show More</button>
+                    </div>
                 </div>
             </div>
         </div>
