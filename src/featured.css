@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
 
 .title {
@@ -48,67 +47,9 @@ a {
 .small-container {
     max-width: 100%;
     margin: auto;
-=======
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap");
-
-.title {
-	font-size: 30px;
-	font-weight: 800;
-	font-family: "Montserrat", sans-serif;
-	text-align: center;
-}
-
-.title::after {
-	content: "";
-	background: #ff523b;
-	width: 120px;
-	height: 5px;
-	border-radius: 5px;
-	position: absolute;
-	top: 13%;
-	/*bottom: 0%;*/
-	bottom: 0;
-	left: 50%;
-	transform: translate(-50%);
-}
-
-#prod {
-	color: red;
-}
-
-a {
-	text-decoration: none;
-	font-size: large;
-	color: red;
-}
-
-.prod__row {
-	display: flex;
-	flex-basis: 25%;
-	transition: transform 0.5s;
-}
-
-.prod__row:hover {
-	display: flex;
-	flex-basis: 25%;
-	/*transform: translateY(-15px);*/
-}
-
-.prod__row > img {
-	width: 100%;
-	height: auto;
-}
-.small-container {
-	max-width: 100%;
-	margin: auto;
->>>>>>> ad09a3c9cd7dea79b2c2e22eb77aa2b7b4e63ec1
 }
 
 .rating > .star,
 .starhalf {
-<<<<<<< HEAD
     color: #ff523b;
-=======
-	color: #ff523b;
->>>>>>> ad09a3c9cd7dea79b2c2e22eb77aa2b7b4e63ec1
 }
