@@ -11,6 +11,7 @@ function Featuredproducts() {
                 <h2 class="title">
                     Featured <span id="prod">Products</span>
                 </h2>
+<<<<<<< HEAD
                 <div className="products">
                     <div className="prod__row">
                         <Card
@@ -65,6 +66,33 @@ function Featuredproducts() {
                         />
                     </div>
                 </div>
+=======
+                <Card
+                    imgsrc={ps[0].imgsrc}
+                    title={ps[0].title}
+                    price={ps[0].price}
+                    link={ps[0].link}
+                />
+                <Card
+                    imgsrc={ps[1].imgsrc}
+                    title={ps[1].title}
+                    price={ps[1].price}
+                    link={ps[1].link}
+                />
+                <Card
+                    imgsrc={ps[2].imgsrc}
+                    title={ps[2].title}
+                    price={ps[2].price}
+                    link={ps[2].link}
+                />
+                <Card
+                    imgsrc={ps[3].imgsrc}
+                    title={ps[3].title}
+                    price={ps[3].price}
+                    link={ps[3].link}
+                />
+                <Card imgsrc={ps[4].imgsrc} title={ps[4].title} />
+>>>>>>> ad09a3c9cd7dea79b2c2e22eb77aa2b7b4e63ec1
             </div>
         </div>
     )
