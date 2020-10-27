@@ -3,6 +3,7 @@ import React from 'react'
 import './featured.css'
 import Card from './Cards'
 import ps from './ProductList'
+import { Link } from 'react-router-dom'
 
 function Featuredproducts() {
     return (
@@ -65,7 +66,9 @@ function Featuredproducts() {
                         />
                     </div>
                     <div className="featured__column">
-                        <button className="Show__more">Show More</button>
+                        <Link to="/product">
+                            <button className="Show__more">Show More</button>
+                        </Link>
                     </div>
                 </div>
             </div>

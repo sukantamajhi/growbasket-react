@@ -13,7 +13,7 @@ function Cards(props) {
                         <small>&#x20B9; </small> <b>{props.price}</b>
                     </p>
                     <a href={props.link} target="_blank">
-                        <button>Check Now</button>
+                        <button className="card__button">Check Now</button>
                     </a>
                 </a>
             </div>

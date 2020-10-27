@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 //import Header from "./Header";
 import './Hero.css'
+import Registration from './Registration'
 
 function Hero() {
     return (
@@ -10,7 +11,7 @@ function Hero() {
                 <div className="row">
                     <div className="col-2">
                         <h1>
-                            This is your <br />
+                            <span id="special">This is your </span><br />
                             <span id="groc">eGroccery store</span>
                         </h1>
                         <p className="heading__text">
@@ -23,10 +24,11 @@ function Hero() {
                         </Link>
                     </div>
                     <div className="col-2">
-                        <img
+                        {/* <img
                             src="https://sukantamajhi.github.io/growbasket/image/grocery.png"
                             alt="grocerry"
-                        />
+                        /> */}
+                        <Registration />
                     </div>
                 </div>
             </div>
