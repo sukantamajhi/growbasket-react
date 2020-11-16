@@ -15,7 +15,6 @@ function App() {
 						<Contact />
 					</Route>
 					<Route path='/product'>
-						{/* <Header /> */}
 						<Product />
 					</Route>
 					<Route path='/login'>
