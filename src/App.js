@@ -6,11 +6,14 @@ import Home from './Home';
 import SignIn from './Signin';
 import Contact from './Contact';
 import About from './About';
+import Header from './Header';
+import Footer from './Footer';
 
 function App() {
 	return (
 		<Router>
 			<div>
+				<Header />
 				<Switch>
 					<Route path='/contact'>
 						<Contact />
@@ -28,6 +31,7 @@ function App() {
 						<Home />
 					</Route>
 				</Switch>
+				<Footer />
 			</div>
 		</Router>
 	);

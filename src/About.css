@@ -1,0 +1,12 @@
+.about__image {
+	height: 50vh;
+	width: 99%;
+	object-fit: cover;
+	margin: auto;
+	align-items: center;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+}

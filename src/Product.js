@@ -1,14 +1,14 @@
 import React from 'react';
-import Footer from './Footer';
-import Header from './Header';
+// import Footer from './Footer';
+// import Header from './Header';
 import ps from './ProductList';
 import './Product.css';
 import Productcard from './Productcard';
 
-function Product() {
+const Product = () => {
 	return (
 		<div id='product'>
-			<Header />
+			{/* <Header /> */}
 
 			<div className='product__header--image'>
 				<img
@@ -144,9 +144,9 @@ function Product() {
 					/>
 				</div>
 			</div>
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
-}
+};
 
 export default Product;

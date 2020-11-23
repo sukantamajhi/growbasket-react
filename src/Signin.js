@@ -13,8 +13,9 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import Header from './Header';
-import Footer from './Footer';
+// import Header from './Header';
+// import Footer from './Footer';
+// import Signup from './Signup';
 import './Signin.css';
 
 // function Copyright() {
@@ -43,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 	form: {
 		width: '100%', // Fix IE 11 issue.
-		marginTop: theme.spacing(1), 
+		marginTop: theme.spacing(1),
 	},
 	submit: {
 		margin: theme.spacing(3, 0, 2),
@@ -55,7 +56,7 @@ export default function SignIn() {
 
 	return (
 		<div>
-			<Header />
+			{/* <Header /> */}
 			<Container component='main' maxWidth='xs'>
 				<CssBaseline />
 				<div className={classes.paper}>
@@ -109,7 +110,7 @@ export default function SignIn() {
 								</Link>
 							</Grid>
 							<Grid item>
-								<Link href='#' variant='body2'>
+								<Link href='/Signup' variant='body2'>
 									{"Don't have an account? Sign Up"}
 								</Link>
 							</Grid>
@@ -117,7 +118,7 @@ export default function SignIn() {
 					</form>
 				</div>
 			</Container>
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 }

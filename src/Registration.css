@@ -1,23 +1,24 @@
 #submit {
-    display: inline-block;
-    width: 100%;
-    background: #f0361d;
-    color: #fff;
-    padding: 8px 24px;
-    margin: 30px 0;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 24px;
-    transition-duration: 0.5s;
+	display: inline-block;
+	width: 100%;
+	background: #f0361d;
+	color: #fff;
+	padding: 8px 24px;
+	margin: 30px 0;
+	border: 1px solid #f0361d;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 24px;
+	transition-duration: 0.5s;
 }
 
 #submit:hover {
-    display: inline-block;
-    background: #ffffff;
-    color: #f0361d;
-    border: 2px #58bb07 solid;
-    padding: 8px 24px;
-    margin: 30px 0px;
-    border-radius: 30px;
-    transform: translateY(-10px)
+	display: inline-block;
+	background: #ffffff;
+	color: #f0361d;
+	border: 2px #58bb07 solid;
+	padding: 8px 24px;
+	margin: 30px 0px;
+	border-radius: 30px;
+	transform: scale(1.08);
 }

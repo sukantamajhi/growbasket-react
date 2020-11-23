@@ -1,6 +1,8 @@
 .footer {
+	clear: both;
 	height: auto;
 	width: 100%;
+	margin-top: auto;
 	position: relative;
 	left: 0px;
 	right: 0px;
@@ -12,6 +14,7 @@
 	align-items: center;
 	position: relative;
 	top: 32px;
+	bottom: 0;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 10px;
@@ -99,4 +102,9 @@ hr {
 .foo-row-cr p {
 	color: #000000;
 	font-weight: 900px;
+}
+
+.footer__container {
+	position: relative;
+	bottom: 0%;
 }
