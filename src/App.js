@@ -6,6 +6,7 @@ import Home from './Home';
 import SignIn from './Signin';
 import Contact from './Contact';
 import About from './About';
+import Registration from './Registration';
 import Header from './Header';
 import Footer from './Footer';
 
@@ -27,7 +28,10 @@ function App() {
 					<Route path='/about'>
 						<About />
 					</Route>
-					<Route path='/'>
+					<Route path='/signup'>
+						<Registration />
+					</Route>
+					<Route exact path='/'>
 						<Home />
 					</Route>
 				</Switch>

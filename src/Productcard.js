@@ -11,7 +11,8 @@ function Productcard(props) {
 						<img src={props.imgsrc} alt='Product1' />
 						<h4>{props.title}</h4>
 						<p>
-							<small>&#x20B9; </small> <b>{props.price}</b>
+							<small>&#x20B9; </small>{' '}
+							<strong>{props.price}</strong>
 						</p>
 						<a href={props.link} target='_blank'>
 							<button className='card__button'>Check Now</button>

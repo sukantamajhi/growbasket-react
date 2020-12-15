@@ -3,7 +3,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import Link from '@material-ui/core/Link';
+// import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
 import FormControl from '@material-ui/core/FormControl';
 import Typography from '@material-ui/core/Typography';
@@ -13,7 +13,7 @@ import './Registration.css';
 
 const useStyles = makeStyles((theme) => ({
 	paper: {
-		marginTop: theme.spacing(20),
+		marginTop: theme.spacing(8),
 		display: 'flex',
 		flexDirection: 'column',
 		alignItems: 'center',
@@ -31,16 +31,17 @@ const useStyles = makeStyles((theme) => ({
 	},
 	submit: {
 		margin: theme.spacing(3, 0, 2),
+		cursor: 'pointer',
 	},
 }));
 
 function message() {
 	document
 		.getElementById('submitMessage')
-		.innerHTML('Thank you for registered');
+		.innerHTML('Thank you for Contacting Us');
 }
 
-export default function SignUp() {
+export default function Contactform() {
 	const classes = useStyles();
 
 	return (
@@ -48,7 +49,7 @@ export default function SignUp() {
 			<CssBaseline />
 			<div className={classes.paper}>
 				<Typography component='h1' variant='h5'>
-					Sign up
+					Contact Us
 				</Typography>
 				<FormControl>
 					<form className={classes.form} noValidate>
@@ -91,11 +92,11 @@ export default function SignUp() {
 									variant='outlined'
 									required
 									fullWidth
-									name='password'
-									label='Password'
-									type='password'
-									id='password'
-									autoComplete='current-password'
+									name='Message'
+									label='Enter Message'
+									type='Message'
+									id='Message'
+									autoComplete=''
 								/>
 							</Grid>
 							<Grid item xs={12}>
@@ -116,16 +117,9 @@ export default function SignUp() {
 							fullWidth
 							variant='contained'
 							onClick={message}>
-							Sign up on GrowBasket
+							Send Now
 						</button>
 						<div id='submitMessage'></div>
-						<Grid container justify='flex-end'>
-							<Grid item>
-								<Link href='/login' variant='body2'>
-									Already have an account? Sign in
-								</Link>
-							</Grid>
-						</Grid>
 					</form>
 				</FormControl>
 			</div>

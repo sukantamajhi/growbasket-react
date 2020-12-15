@@ -1,0 +1,21 @@
+#contact {
+	margin-top: 5.5%;
+}
+
+.heading {
+	text-align: center;
+	font-family: Montserrat;
+}
+.contact_details {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 10px 0;
+}
+.contact__page {
+	display: flex;
+	justify-content: center;
+}
+
+.left__panel {
+	width: 50vw;
+	text-align: left;
+}
