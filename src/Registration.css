@@ -5,20 +5,31 @@
 	color: #fff;
 	padding: 8px 24px;
 	margin: 30px 0;
-	border: 1px solid #f0361d;
+	border: 1px solid #ec533f;
 	border-radius: 10px;
 	text-decoration: none;
 	font-size: 24px;
-	transition-duration: 0.5s;
+	transition-duration: 0.8s;
+	animation-timing-function: ease;
 }
 
 #submit:hover {
 	display: inline-block;
-	background: #ffffff;
-	color: #f0361d;
-	border: 2px #58bb07 solid;
+	background: #d12109;
+	color: #ffffff;
+	border: 1px solid #ec533f;
 	padding: 8px 24px;
 	margin: 30px 0px;
 	border-radius: 30px;
-	transform: scale(1.08);
+	transform: scale(1.02);
+	transition-duration: 0.5s;
+	animation-timing-function: ease;
+}
+
+#signin {
+	color: blue;
+}
+#signin:hover {
+	color: blue;
+	text-decoration: underline;
 }

@@ -3,20 +3,23 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import Link from '@material-ui/core/Link';
+// import Link from '@material-ui/core/Link';
+import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import FormControl from '@material-ui/core/FormControl';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import './Registration.css';
+import { blue } from '@material-ui/core/colors';
 
 const useStyles = makeStyles((theme) => ({
 	paper: {
-		marginTop: theme.spacing(20),
+		marginTop: theme.spacing(15),
 		display: 'flex',
 		flexDirection: 'column',
 		alignItems: 'center',
+		marginBottom: theme.spacing(5),
 	},
 	avatar: {
 		margin: theme.spacing(1),
@@ -121,7 +124,7 @@ export default function SignUp() {
 						<div id='submitMessage'></div>
 						<Grid container justify='flex-end'>
 							<Grid item>
-								<Link href='/login' variant='body2'>
+								<Link to='/login' variant='body2' id='signin'>
 									Already have an account? Sign in
 								</Link>
 							</Grid>

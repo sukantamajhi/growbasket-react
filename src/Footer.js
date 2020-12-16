@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import FacebookIcon from '@material-ui/icons/Facebook';
 import './Footer.css';
+// import { Instagram, Twitter } from '@material-ui/icons';
+// import YouTubeIcon from '@material-ui/icons/YouTube';
 
 function Footer() {
 	return (
@@ -9,10 +12,7 @@ function Footer() {
 				<div className='foo-row'>
 					<div className='foo-col-1'>
 						<Link to='/' />
-						<img
-							src='https://sukantamajhi.github.io/growbasket/image/logo/grow3.svg'
-							alt='Logo'
-						/>
+						<img src='logo/logo.svg' alt='Logo' />
 						<p>
 							Order and get fresh product delivery in your door.
 						</p>
@@ -53,43 +53,17 @@ function Footer() {
 					</div>
 					<div className='foo-col-4'>
 						<h3>Social Media</h3>
-						<a href='https://www.facebook.com/'>
-							<img
-								src='https://lh3.googleusercontent.com/ccWDU4A7fX1R24v-vvT480ySh26AYp97g1VrIB_FIdjRcuQB2JP2WdY7h_wVVAeSpg'
-								alt='facebook logo'
-								height='30px'
-								width='30px'
-							/>
-						</a>
-						&nbsp;
-						<a href='https://www.twitter.com/'>
-							<img
-								src='https://lh3.googleusercontent.com/wIf3HtczQDjHzHuu7vezhqNs0zXAG85F7VmP7nhsTxO3OHegrVXlqIh_DWBYi86FTIGk'
-								alt='twitter logo'
-								height='30px'
-								width='30px'
-							/>
-						</a>
-						&nbsp;
-						<a
-							href='https://w
-						ww.instagram.com/'>
-							<img
-								src='https://pbs.twimg.com/profile_images/1306051401236099072/nuSA8oqW_400x400.jpg'
-								alt='instagram logo'
-								height={35}
-								width={35}
-							/>
-						</a>
-						&nbsp;
-						<a href='https://www.youtube.com/'>
-							<img
-								src='https://i.pinimg.com/originals/de/1c/91/de1c91788be0d791135736995109272a.png'
-								alt='youtube logo'
-								height={35}
-								width={35}
-							/>
-						</a>
+						<div class='wrapper'>
+							<a href='http://www.facebook.com'>
+								<i class='fa fa-2x fa-facebook-square'></i>
+							</a>
+							<a href='http://www.twitter.com'>
+								<i class='fa fa-2x fa-twitter-square'></i>
+							</a>
+							<a href='http://www.instagram.com'>
+								<i class='fa fa-2x fa-instagram instagram'></i>
+							</a>
+						</div>
 					</div>
 				</div>
 				<hr />

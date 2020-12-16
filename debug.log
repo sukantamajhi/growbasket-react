@@ -1,2 +1,0 @@
-[1123/135002.767:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
-[1123/135002.849:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\077d3a12-d250-4f55-88e4-f1ee3fdd09fc: The system cannot find the path specified. (0x3)

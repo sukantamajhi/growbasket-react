@@ -27,7 +27,6 @@ body {
 	justify-content: center;
 	padding: 90px;
 	margin-left: 90px;
-	/*margin-right: 10px;*/
 }
 .row h1 {
 	color: #b60505;
@@ -46,6 +45,7 @@ body {
 .col-2 {
 	flex-basis: 50%;
 	min-width: 300px;
+	background-attachment: fixed;
 }
 
 .col-2 img {

@@ -12,9 +12,10 @@ function header() {
 					<div className='logo'>
 						<Link to='/'>
 							<img
-								src='https://sukantamajhi.github.io/growbasket/image/logo/grow3.svg'
+								src='./logo/logo.svg'
 								width='125px'
 								alt='growbasket logo'
+								className='logo__image'
 							/>
 						</Link>
 					</div>
