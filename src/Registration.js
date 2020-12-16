@@ -11,7 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import './Registration.css';
-import { blue } from '@material-ui/core/colors';
+// import { blue } from '@material-ui/core/colors';
 
 const useStyles = makeStyles((theme) => ({
 	paper: {
