@@ -1,14 +1,21 @@
 .footer {
-	clear: both;
 	height: auto;
-	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	margin-top: auto;
+	bottom: 0;
+	/* top: 100vh; */
+	width: 100%;
 	position: relative;
-	left: 0px;
-	right: 0px;
-	bottom: 0%;
 	text-align: left;
-	background-color: #111b1e;
+	background-color: #1e1e1e;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 .foo-row {
 	display: flex;

@@ -4,11 +4,10 @@ import './About.css';
 const About = () => {
 	return (
 		<div className='about'>
-			<img
-				src='http://www.columnyst.com/wp-content/uploads/2017/05/about-su-banner.jpg'
+			{/* <img
+				src='https://image.shutterstock.com/image-illustration/about-us-heading-keywords-blue-260nw-547791460.jpg'
 				alt=''
-				className='about__image'
-			/>
+			/> */}
 		</div>
 	);
 };

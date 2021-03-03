@@ -5,7 +5,19 @@ body {
 }
 .hero {
 	display: grid;
-	background: radial-gradient(#7de1ff, #a2ff6c);
+	/* background: radial-gradient(#7de1ff, #a2ff6c); */
+	background: #fdfc47; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to top,
+		#24fe41,
+		#fdfc47
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to top,
+		#24fe41,
+		#fdfc47
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	height: 100vh;
 	width: 100vw;
 	padding: 50px 0;

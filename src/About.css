@@ -1,9 +1,13 @@
 .about__image {
-	height: 50vh;
-	width: 99%;
+	position: relative;
+	height: 90vh;
+	/* width: 100%; */
 	object-fit: cover;
 	margin: auto;
 	align-items: center;
+}
+.about__image img {
+	width: 100%;
 }
 
 .about {

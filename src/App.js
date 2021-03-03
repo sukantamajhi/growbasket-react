@@ -34,6 +34,7 @@ function App() {
 					<Route exact path='/'>
 						<Home />
 					</Route>
+					<Route path='*'>Page not found</Route>
 				</Switch>
 				<Footer />
 			</div>
